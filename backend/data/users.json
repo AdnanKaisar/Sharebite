@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "0rvjrwuyq",
+    "createdAt": "2026-06-27T06:51:48.003Z",
+    "name": "Adnan kaisar",
+    "email": "2023a1r050@mietjammu.in",
+    "password": "$2a$10$my/VfQVF4PoP3Six6Z7RSeha1sxecv9btE/FCjWxWOH3XoMCVRzQK",
+    "role": "volunteer",
+    "contactNumber": "+917780946112",
+    "address": "khundroo",
+    "avatar": "https://images.unsplash.com/photo-1559024094-4a1e4495c3c1?w=100&auto=format&fit=crop&q=60",
+    "isVerifiedNgo": true
+  },
+  {
+    "_id": "3ptvr1vuh",
+    "createdAt": "2026-06-27T07:21:03.743Z",
+    "name": "Adnan Kaisar",
+    "email": "adnankaisar112@gmail.com",
+    "password": "$2a$10$708DdJvxNyqLANg91WMCouwDA5/1pItUk7KlRYv8ESoE0rGZxiyLW",
+    "role": "admin",
+    "contactNumber": "+91 7780946112",
+    "address": "Achabal, Anantnag, J&K, India",
+    "avatar": "https://c8.alamy.com/comp/2C347RC/beautiful-and-detailed-illustration-on-the-theme-of-web-developer-dynamic-and-modern-it-is-perfect-for-decorating-presentations-of-your-services-2C347RC.jpg",
+    "isVerifiedNgo": true,
+    "updatedAt": "2026-06-27T18:59:15.202Z"
+  },
+  {
+    "_id": "kqtakf9i3",
+    "createdAt": "2026-06-27T07:23:39.570Z",
+    "name": "faizan",
+    "email": "faizan@gmail.com",
+    "password": "$2a$10$.SZ5ZAmbrGLFTQhT4.1noeQIwDqKAwwXW1R9IYHSAYiRZOLZm6596",
+    "role": "donor",
+    "contactNumber": "1254154654654",
+    "address": "asmhdkjsb",
+    "avatar": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=100&auto=format&fit=crop&q=60",
+    "isVerifiedNgo": true
+  },
+  {
+    "_id": "mtv6kg52e",
+    "createdAt": "2026-06-27T07:25:18.194Z",
+    "name": "xv",
+    "email": "admin@fsdfsdoodbridge.org",
+    "password": "$2a$10$KOMxp01JLp3prasUKkAmuOo7p91G80O38M7aBZ/C0/m1Jxhd4BfSG",
+    "role": "donor",
+    "contactNumber": "fe",
+    "address": "et",
+    "avatar": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=100&auto=format&fit=crop&q=60",
+    "isVerifiedNgo": true
+  },
+  {
+    "_id": "pmrm8rbeo",
+    "createdAt": "2026-06-27T07:43:50.381Z",
+    "name": "gufygf",
+    "email": "admin@fojgfytfytodbridge.org",
+    "password": "$2a$10$Jhj7Zd7MYRaxJjjKdUT.q.p487SctjcHOcYQzNY4XiwIZ9QE09Z1a",
+    "role": "donor",
+    "contactNumber": "hgfyt",
+    "address": "hfyt",
+    "avatar": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=100&auto=format&fit=crop&q=60",
+    "isVerifiedNgo": true
+  }
+]

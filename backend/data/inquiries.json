@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "unj4f31uz",
+    "createdAt": "2026-06-27T07:06:08.305Z",
+    "name": "zamin",
+    "email": "adnanwaniyt@gmail.com",
+    "subject": "regarding the food ",
+    "message": "the food was expire "
+  },
+  {
+    "_id": "nx87lytsf",
+    "createdAt": "2026-06-27T07:17:03.771Z",
+    "name": "aiman",
+    "email": "123@gmail.com",
+    "subject": "food ",
+    "message": "food quality id not good \n"
+  },
+  {
+    "_id": "r8r11jlhz",
+    "createdAt": "2026-06-27T07:47:34.793Z",
+    "name": "adnankaisar",
+    "email": "xgvxfg@gmail.com",
+    "subject": "food",
+    "message": "food is expire"
+  }
+]

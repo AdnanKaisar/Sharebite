@@ -1,0 +1,109 @@
+[
+  {
+    "_id": "niflem895",
+    "createdAt": "2026-06-27T07:06:08.307Z",
+    "userId": "admin",
+    "title": "🚨 New Inquiry Ticket Received",
+    "message": "From zamin (adnanwaniyt@gmail.com): \"regarding the food \"",
+    "type": "info",
+    "read": true,
+    "updatedAt": "2026-06-27T07:17:12.242Z"
+  },
+  {
+    "_id": "bti96nevd",
+    "createdAt": "2026-06-27T07:17:03.776Z",
+    "userId": "admin",
+    "title": "🚨 New Inquiry Ticket Received",
+    "message": "From aiman (123@gmail.com): \"food \"",
+    "type": "info"
+  },
+  {
+    "_id": "t45wz8fml",
+    "createdAt": "2026-06-27T07:27:16.410Z",
+    "userId": "ngo",
+    "title": "New Food Donation Available!",
+    "message": "xv has listed \"chicken\" (1 kg, serves 5).",
+    "donationId": "ksksan2wt",
+    "type": "info"
+  },
+  {
+    "_id": "djnplkn1p",
+    "createdAt": "2026-06-27T07:40:43.686Z",
+    "userId": "mtv6kg52e",
+    "title": "Donation Claimed & Courier Dispatched!",
+    "message": "NGO \"Hope Shelter Net\" has claimed your food donation. Volunteer \"Adnan kaisar\" has been automatically assigned to pick it up.",
+    "donationId": "ksksan2wt",
+    "type": "success"
+  },
+  {
+    "_id": "bgl70xu9k",
+    "createdAt": "2026-06-27T07:40:43.688Z",
+    "userId": "auto-ngo",
+    "title": "Donation Claimed successfully",
+    "message": "You claimed \"chicken\". Volunteer \"Adnan kaisar\" has been automatically dispatched to deliver it to you.",
+    "donationId": "ksksan2wt",
+    "type": "success"
+  },
+  {
+    "_id": "oflgnic9x",
+    "createdAt": "2026-06-27T07:40:43.692Z",
+    "userId": "0rvjrwuyq",
+    "title": "🚨 Automated Delivery Assignment!",
+    "message": "You have been automatically assigned to pick up food from \"xv\" and deliver to NGO \"Adnan Kaisar\".",
+    "donationId": "ksksan2wt",
+    "type": "info"
+  },
+  {
+    "_id": "uejs67emj",
+    "createdAt": "2026-06-27T07:44:49.203Z",
+    "userId": "ngo",
+    "title": "New Food Donation Available!",
+    "message": "gufygf has listed \"jggug\" (1kg, serves 5).",
+    "donationId": "dmbcird3e",
+    "type": "info"
+  },
+  {
+    "_id": "abtdvskse",
+    "createdAt": "2026-06-27T07:44:49.206Z",
+    "userId": "volunteer",
+    "title": "New Delivery Run Available!",
+    "message": "Surplus food available at \"achabal\". Route is ready for collection.",
+    "donationId": "dmbcird3e",
+    "type": "info"
+  },
+  {
+    "_id": "8ppojfdsl",
+    "createdAt": "2026-06-27T07:45:51.691Z",
+    "userId": "pmrm8rbeo",
+    "title": "Food Approved & Partner Assigned!",
+    "message": "Your food has been approved and delivery partner \"Adnan kaisar\" is assigned to pick it up.",
+    "donationId": "dmbcird3e",
+    "type": "success"
+  },
+  {
+    "_id": "6d5sbitxl",
+    "createdAt": "2026-06-27T07:45:51.695Z",
+    "userId": "auto-ngo",
+    "title": "Donation Claimed successfully",
+    "message": "You claimed \"jggug\". Volunteer \"Adnan kaisar\" has been automatically dispatched to deliver it to you.",
+    "donationId": "dmbcird3e",
+    "type": "success"
+  },
+  {
+    "_id": "4szq3v5zs",
+    "createdAt": "2026-06-27T07:45:51.697Z",
+    "userId": "0rvjrwuyq",
+    "title": "🚨 Automated Delivery Assignment!",
+    "message": "You have been automatically assigned to pick up food from \"gufygf\" and deliver to NGO \"Platform Admin\".",
+    "donationId": "dmbcird3e",
+    "type": "info"
+  },
+  {
+    "_id": "rad2u55y5",
+    "createdAt": "2026-06-27T07:47:34.795Z",
+    "userId": "admin",
+    "title": "🚨 New Inquiry Ticket Received",
+    "message": "From adnankaisar (xgvxfg@gmail.com): \"food\"",
+    "type": "info"
+  }
+]

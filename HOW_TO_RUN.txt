@@ -1,0 +1,48 @@
+=========================================================================
+                      SHAREBITE - HOW TO RUN GUIDE
+========================================================================
+
+All the code and updates are saved directly in your directory. 
+
+Do NOT open the raw 'index.html' file directly in your browser. Because
+ShareBite is a modern web application built with React and a Node.js
+backend, it requires compile-time building and active servers to run.
+
+Here is how you can open and run this project anytime:
+
+------------------------------------------------------------------------
+STEP 1: Open your Terminal / Command Prompt
+------------------------------------------------------------------------
+Open PowerShell, Command Prompt, or the terminal inside VS Code.
+
+------------------------------------------------------------------------
+STEP 2: Navigate to the FoodBridge Folder
+------------------------------------------------------------------------
+Type the following command and press Enter:
+
+cd "c:\Users\HP\OneDrive\Documents\Python\python1\Portfolio\Portfolio\Personal-Finance-Tracker\foodbridge"
+
+------------------------------------------------------------------------
+STEP 3: Start the Backend and Frontend Servers
+------------------------------------------------------------------------
+Type the following command and press Enter:
+
+npm run dev
+
+* This command will launch both the backend (port 5000) and the 
+  frontend compiler (port 5173) at the same time.
+
+------------------------------------------------------------------------
+STEP 4: Open your Browser
+------------------------------------------------------------------------
+Once the terminal shows that Vite has started, open your browser and go to:
+
+http://localhost:5173/
+
+========================================================================
+ADMIN ACCESS CREDENTIALS:
+========================================================================
+* Admin Portal URL: http://localhost:5173/admin-login
+* Email:            adnankaisar112@gmail.com
+* Password:         Adnankaisarwani@7780946112
+========================================================================
