@@ -132,15 +132,16 @@ export const AdminLogin = () => {
             <button
               type="submit"
               disabled={loading}
-              className="mt-2 w-full py-3.5 bg-gradient-to-r from-red-600 to-purple-600 hover:from-red-500 hover:to-purple-500 disabled:from-red-800 disabled:to-purple-800 text-white font-bold rounded-xl btn-3d-slate transition-all flex items-center justify-center gap-2 group text-sm"
+              className="mt-2 w-full py-3.5 bg-gradient-to-r from-red-600 to-purple-600 hover:from-red-500 hover:to-purple-500 disabled:from-red-800 disabled:to-purple-800 text-white font-bold rounded-xl btn-3d-slate transition-all flex items-center justify-center gap-2 group text-sm relative overflow-hidden"
             >
-              {loading ? (
-                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-              ) : (
-                <>
-                  <span>Authenticate Session</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                </>
+              <span className={`flex items-center gap-2 transition-opacity duration-200 ${loading ? 'opacity-0' : 'opacity-100'}`}>
+                <span>Authenticate Session</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+              </span>
+              {loading && (
+                <span className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                </span>
               )}
             </button>
           </form>
