@@ -61,7 +61,12 @@ export const FoodDetails = () => {
     fetchDetails();
     fetchChat();
 
-    const socketUrl = window.location.hostname === 'localhost' ? 'http://localhost:5000' : window.location.origin;
+    let socketUrl = window.location.origin;
+    if (import.meta.env.VITE_API_BASE) {
+      socketUrl = import.meta.env.VITE_API_BASE.replace(/\/api\/?$/, '');
+    } else if (window.location.hostname === 'localhost') {
+      socketUrl = 'http://localhost:5000';
+    }
     const socket = io(socketUrl);
     socketRef.current = socket;
 

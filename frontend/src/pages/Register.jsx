@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { GlassCard } from '../components/GlassCard';
-import { User, Mail, Lock, Phone, MapPin, UserPlus, Info, Leaf } from 'lucide-react';
+import { User, Mail, Lock, Phone, MapPin, UserPlus, Info, Leaf, Eye, EyeOff } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const Register = () => {
@@ -20,6 +20,7 @@ export const Register = () => {
     avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150'
   });
 
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -183,15 +184,22 @@ export const Register = () => {
                   <Lock className="w-4 h-4" />
                 </span>
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   name="password"
                   required
                   value={formData.password}
                   onChange={handleChange}
                   placeholder="Create a strong password"
                   autoComplete="new-password"
-                  className="form-input-premium"
+                  className="form-input-premium pr-10"
                 />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
               </div>
             </div>
 
