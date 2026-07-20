@@ -129,6 +129,18 @@ export const Navbar = () => {
 
           {/* Action Icons */}
           <div className="hidden md:flex items-center gap-4">
+            {/* Theme Toggle */}
+            <button
+              onClick={toggleTheme}
+              className={`p-2 rounded-lg transition-colors ${
+                theme === 'dark' 
+                  ? 'hover:bg-slate-900 text-amber-400' 
+                  : 'hover:bg-slate-100 text-indigo-600'
+              }`}
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            </button>
 
             {user ? (
               <>
@@ -248,6 +260,30 @@ export const Navbar = () => {
               <Link to="/profile" onClick={() => setIsOpen(false)} className="py-2 text-sm font-bold text-emerald-500 hover:text-emerald-400 transition-colors">Profile Settings</Link>
             </>
           )}
+          
+          <div className="flex items-center justify-between py-1 border-b border-slate-800/10 dark:border-slate-850/40">
+            <span className="text-sm font-bold">Theme</span>
+            <button
+              onClick={toggleTheme}
+              className={`p-1.5 rounded-lg transition-colors flex items-center gap-1.5 ${
+                theme === 'dark' 
+                  ? 'hover:bg-slate-900 text-amber-400' 
+                  : 'hover:bg-slate-100 text-indigo-650'
+              }`}
+            >
+              {theme === 'dark' ? (
+                <>
+                  <Sun className="w-4 h-4 text-amber-400" />
+                  <span className="text-xs font-semibold">Light Mode</span>
+                </>
+              ) : (
+                <>
+                  <Moon className="w-4 h-4 text-indigo-600" />
+                  <span className="text-xs font-semibold">Dark Mode</span>
+                </>
+              )}
+            </button>
+          </div>
           
           <div className="border-t border-slate-800/10 dark:border-slate-850/40 my-1"></div>
           

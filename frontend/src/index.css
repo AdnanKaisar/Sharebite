@@ -133,6 +133,36 @@ body {
   border-color: rgba(0, 0, 0, 0.1) !important;
 }
 
+/* Dark mode overrides for elements that hardcode light styles */
+.dark .text-slate-900,
+.dark .text-slate-850,
+.dark .text-slate-800,
+.dark .text-slate-700,
+.dark .text-gray-800 {
+  color: #f3f4f6 !important;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500,
+.dark .text-gray-500 {
+  color: #94a3b8 !important;
+}
+
+.dark .bg-white\/50,
+.dark .bg-white\/40,
+.dark .bg-white\/30,
+.dark .bg-white {
+  background-color: rgba(15, 23, 42, 0.45) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+}
+
+.dark .border-slate-200\/60,
+.dark .border-slate-200\/40,
+.dark .border-slate-200 {
+  border-color: rgba(255, 255, 255, 0.05) !important;
+}
+
 /* Glassmorphism Classes */
 .glass-panel {
   background: rgba(255, 255, 255, 0.015);

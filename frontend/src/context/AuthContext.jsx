@@ -6,7 +6,9 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('fb_theme') || 'dark';
+  });
 
   // Load profile on start if token exists
   useEffect(() => {
@@ -29,13 +31,18 @@ export const AuthProvider = ({ children }) => {
   // Sync theme to DOM
   useEffect(() => {
     const root = window.document.documentElement;
-    root.classList.remove('dark');
-    root.classList.add('light');
-    localStorage.setItem('fb_theme', 'light');
-  }, []);
+    if (theme === 'dark') {
+      root.classList.remove('light');
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+      root.classList.add('light');
+    }
+    localStorage.setItem('fb_theme', theme);
+  }, [theme]);
 
   const toggleTheme = () => {
-    // Locked to light theme, do nothing
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   };
 
   const login = async (credentials) => {
