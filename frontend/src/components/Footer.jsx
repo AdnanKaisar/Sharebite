@@ -11,7 +11,7 @@ export const Footer = () => {
             <Leaf className="w-4.5 h-4.5 text-emerald-500 fill-emerald-500/10" />
           </div>
           <span className="font-bold tracking-tight text-emerald-500">ShareBite</span>
-          <span className="text-xs text-slate-500">Adnan Kaisar</span>
+          <span className="text-xs text-slate-500">Adnan Kaisar & Farzaan Maqbool</span>
         </div>
         
         <p className="text-xs text-gray-500 dark:text-gray-400">
